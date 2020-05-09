@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NRJ6HF-1
+D Phone Connectors STEREO THREADED NO HARDWARE INCLUDED
+K
+F https://componentsearchengine.com/Datasheets/5/NRJ6HF-1.pdf
+$ENDCMP
+#
+$CMP NCJ6FA-H-0
+D Socket; Jack 6,35mm + XLR; female; angled 90; THT; 3A
+K
+F http://www.neutrik.us/en-us/plugs-jacks/jacks/combo-a-series/ncj6fa-h-0
+$ENDCMP
+#
+$CMP UJ2-MIBH-4-MSMT-TR
+D USB Connectors USB 2.0 micro B jack 5 pin HZ mid-mnt SMT
+K
+F https://componentsearchengine.com/Datasheets/1/UJ2-MIBH-4-MSMT-TR.pdf
+$ENDCMP
+#
+$CMP CSTNR6M00GH5L000R0
+D Resonators 4.5x2.0x1.1mm 6MHz Ceramic Resonator (CERALOCK ) +/-0.07% Initial tolerance
+K
+F https://componentsearchengine.com/Datasheets/1/CSTNR6M00GH5L000R0.pdf
+$ENDCMP
+#
+$CMP 74404064220
+D Wurth WE-LQS Series Shielded Wire-wound SMD Inductor 22 uH +/-20% 1.8A Idc
+K
+F https://componentsearchengine.com/Datasheets/1/74404064220.pdf
+$ENDCMP
+#
+#End Doc Library
