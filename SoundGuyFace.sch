@@ -715,21 +715,21 @@ $EndComp
 $Comp
 L SamacSys_Parts:NCJ6FA-H-0 J2
 U 1 1 5EC04E0E
-P 7550 3600
-F 0 "J2" H 8000 3865 50  0000 C CNN
-F 1 "NCJ6FA-H-0" H 8000 3774 50  0000 C CNN
-F 2 "SamacSys_Parts:NCJ6FAH0" H 8300 3700 50  0001 L CNN
-F 3 "http://www.neutrik.us/en-us/plugs-jacks/jacks/combo-a-series/ncj6fa-h-0" H 8300 3600 50  0001 L CNN
-F 4 "Socket; Jack 6,35mm + XLR; female; angled 90; THT; 3A" H 8300 3500 50  0001 L CNN "Description"
-F 5 "25" H 8300 3400 50  0001 L CNN "Height"
-F 6 "568-NCJ6FA-H-0" H 8300 3300 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Neutrik/NCJ6FA-H-0?qs=aEaV1LakhLaCrLXco%252BtEjw%3D%3D" H 8300 3200 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Neutrik" H 8300 3100 50  0001 L CNN "Manufacturer_Name"
-F 9 "NCJ6FA-H-0" H 8300 3000 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "Neutrik" H 7550 3600 50  0001 C CNN "Manufacturer"
-F 11 "NCJ6FA-H-0" H 7550 3600 50  0001 C CNN "Manufacturer Part ID"
-F 12 "568-NCJ6FA-H-0" H 7550 3600 50  0001 C CNN "Mouser ID"
-	1    7550 3600
+P 7850 3450
+F 0 "J2" H 8300 3715 50  0000 C CNN
+F 1 "NCJ6FA-H-0" H 8300 3624 50  0000 C CNN
+F 2 "SamacSys_Parts:NCJ6FAH0" H 8600 3550 50  0001 L CNN
+F 3 "http://www.neutrik.us/en-us/plugs-jacks/jacks/combo-a-series/ncj6fa-h-0" H 8600 3450 50  0001 L CNN
+F 4 "Socket; Jack 6,35mm + XLR; female; angled 90; THT; 3A" H 8600 3350 50  0001 L CNN "Description"
+F 5 "25" H 8600 3250 50  0001 L CNN "Height"
+F 6 "568-NCJ6FA-H-0" H 8600 3150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Neutrik/NCJ6FA-H-0?qs=aEaV1LakhLaCrLXco%252BtEjw%3D%3D" H 8600 3050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Neutrik" H 8600 2950 50  0001 L CNN "Manufacturer_Name"
+F 9 "NCJ6FA-H-0" H 8600 2850 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "Neutrik" H 7850 3450 50  0001 C CNN "Manufacturer"
+F 11 "NCJ6FA-H-0" H 7850 3450 50  0001 C CNN "Manufacturer Part ID"
+F 12 "568-NCJ6FA-H-0" H 7850 3450 50  0001 C CNN "Mouser ID"
+	1    7850 3450
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1136,9 +1136,9 @@ Wire Wire Line
 	4850 2550 4850 2450
 Wire Wire Line
 	4850 2450 4950 2450
-NoConn ~ 7550 3900
-NoConn ~ 7550 4000
-NoConn ~ 7550 4100
+NoConn ~ 7850 3750
+NoConn ~ 7850 3850
+NoConn ~ 7850 3950
 $Comp
 L power:+48V #PWR0114
 U 1 1 5ED4BA68
@@ -1172,47 +1172,47 @@ InHot
 Text Label 1050 2350 2    50   ~ 0
 InCold
 Wire Wire Line
-	6650 3900 6550 3900
+	6950 3750 6850 3750
 Wire Wire Line
-	6550 3900 6550 4000
+	6850 3750 6850 3850
 Wire Wire Line
-	6550 4000 6650 4000
+	6850 3850 6950 3850
 Wire Wire Line
-	6650 3700 6550 3700
+	6950 3550 6850 3550
 Wire Wire Line
-	7550 3700 7650 3700
+	7850 3550 7950 3550
 Wire Wire Line
-	7550 3800 7650 3800
+	7850 3650 7950 3650
 $Comp
 L power:GND #PWR0115
 U 1 1 5EDB66FC
-P 7100 4300
-F 0 "#PWR0115" H 7100 4050 50  0001 C CNN
-F 1 "GND" H 7105 4127 50  0000 C CNN
-F 2 "" H 7100 4300 50  0001 C CNN
-F 3 "" H 7100 4300 50  0001 C CNN
-	1    7100 4300
+P 7400 4150
+F 0 "#PWR0115" H 7400 3900 50  0001 C CNN
+F 1 "GND" H 7405 3977 50  0000 C CNN
+F 2 "" H 7400 4150 50  0001 C CNN
+F 3 "" H 7400 4150 50  0001 C CNN
+	1    7400 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 3600 7100 3600
+	7850 3450 7400 3450
 Wire Wire Line
-	7100 3600 7100 3800
+	7400 3450 7400 3650
 Wire Wire Line
-	6650 3800 7100 3800
-Connection ~ 7100 3800
+	6950 3650 7400 3650
+Connection ~ 7400 3650
 Wire Wire Line
-	7100 3800 7100 4300
+	7400 3650 7400 4150
 Wire Wire Line
-	6650 3600 7100 3600
-Connection ~ 7100 3600
-Text Label 6550 3900 2    50   ~ 0
+	6950 3450 7400 3450
+Connection ~ 7400 3450
+Text Label 6850 3750 2    50   ~ 0
 InHot
-Text Label 7650 3700 0    50   ~ 0
+Text Label 7950 3550 0    50   ~ 0
 InHot
-Text Label 6550 3700 2    50   ~ 0
+Text Label 6850 3550 2    50   ~ 0
 InCold
-Text Label 7650 3800 0    50   ~ 0
+Text Label 7950 3650 0    50   ~ 0
 InCold
 $Comp
 L Device:LED_Small_ALT D4
@@ -1312,7 +1312,7 @@ $Comp
 L Device:R_Small R25
 U 1 1 5EE33BEE
 P 2600 6600
-F 0 "R25" V 2700 6450 50  0000 C CNN
+F 0 "R25" V 2700 6400 50  0000 C CNN
 F 1 "22" V 2700 6550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2600 6600 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/348/sfr-e-1507454.pdf" H 2600 6600 50  0001 C CNN
@@ -1391,7 +1391,7 @@ L Device:R_Small R24
 U 1 1 5EE8A087
 P 2300 6400
 F 0 "R24" V 2200 6300 50  0000 C CNN
-F 1 "1k4" V 2200 6450 50  0000 C CNN
+F 1 "1k5" V 2200 6450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 6400 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf" H 2300 6400 50  0001 C CNN
 F 4 "Yageo" H 2300 6400 50  0001 C CNN "Manufacturer"
@@ -1508,7 +1508,7 @@ $Comp
 L Device:R_Small R26
 U 1 1 5EE34876
 P 2850 6700
-F 0 "R26" V 2750 6700 50  0000 C CNN
+F 0 "R26" V 2750 6650 50  0000 C CNN
 F 1 "22" V 2750 6800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2850 6700 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/348/sfr-e-1507454.pdf" H 2850 6700 50  0001 C CNN
@@ -1559,7 +1559,7 @@ L SamacSys_Parts:CSTNR6M00GH5L000R0 Y1
 U 1 1 5F00CCAB
 P 4500 6750
 F 0 "Y1" H 5328 6696 50  0000 L CNN
-F 1 "CSTNR6M00GH5L000R0" H 5328 6605 50  0000 L CNN
+F 1 "6MHz" H 5328 6605 50  0000 L CNN
 F 2 "SamacSys_Parts:CSTNR6M00GH5L000R0" H 5350 6850 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/CSTNR6M00GH5L000R0.pdf" H 5350 6750 50  0001 L CNN
 F 4 "Resonators 4.5x2.0x1.1mm 6MHz Ceramic Resonator (CERALOCK ) +/-0.07% Initial tolerance" H 5350 6650 50  0001 L CNN "Description"
@@ -1656,7 +1656,7 @@ Wire Wire Line
 	3950 6700 3800 6700
 Text Notes 750  5550 0    50   ~ 0
 USB Connection
-Text Notes 6300 3300 0    50   ~ 0
+Text Notes 6600 3150 0    50   ~ 0
 Combi Input
 $Comp
 L Device:C_Small C2
@@ -1692,7 +1692,7 @@ U 1 1 5F30BC32
 P 1500 4300
 F 0 "SW2" H 1500 4201 50  0000 C CNN
 F 1 "SW_Push_Open" H 1500 4201 50  0001 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 1500 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1500 4500 50  0001 C CNN
 F 3 "~" H 1500 4500 50  0001 C CNN
 	1    1500 4300
 	1    0    0    1   
@@ -2077,7 +2077,7 @@ U 1 1 5F5E471D
 P 5150 2450
 F 0 "SW1" H 5150 2351 50  0000 C CNN
 F 1 "SW_Push_Open" H 5150 2351 50  0001 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 5150 2650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5150 2650 50  0001 C CNN
 F 3 "~" H 5150 2650 50  0001 C CNN
 	1    5150 2450
 	1    0    0    1   
@@ -2122,4 +2122,60 @@ Wire Wire Line
 	4000 2050 3600 2050
 Wire Wire Line
 	3600 2050 3600 2650
+Wire Notes Line
+	650  5000 650  3200
+Wire Notes Line
+	650  5300 5600 5300
+Wire Notes Line
+	5600 5300 5600 7700
+Wire Notes Line
+	5600 7700 650  7700
+Wire Notes Line
+	650  7700 650  5300
+Wire Notes Line
+	8450 4700 11100 4700
+Wire Notes Line
+	11100 4700 11100 6300
+Wire Notes Line
+	11100 6300 8450 6300
+Wire Notes Line
+	8450 6300 8450 4700
+Wire Notes Line
+	8450 4400 11100 4400
+Wire Notes Line
+	11100 4400 11100 3000
+Wire Notes Line
+	11100 3000 8450 3000
+Wire Notes Line
+	8450 3000 8450 4400
+Wire Notes Line
+	11100 550  11100 2450
+Wire Notes Line
+	6550 2450 6550 550 
+Wire Notes Line
+	650  550  6150 550 
+Wire Notes Line
+	6150 550  6150 3100
+Wire Notes Line
+	6150 3100 650  3100
+Wire Notes Line
+	650  3100 650  550 
+Wire Notes Line
+	6550 3000 8300 3000
+Wire Notes Line
+	8300 3000 8300 4400
+Wire Notes Line
+	8300 4400 6550 4400
+Wire Notes Line
+	6550 4400 6550 3000
+Wire Notes Line
+	6550 2450 11100 2450
+Wire Notes Line
+	6550 550  11100 550 
+Wire Notes Line
+	5600 5000 5600 3200
+Wire Notes Line
+	650  3200 5600 3200
+Wire Notes Line
+	650  5000 5600 5000
 $EndSCHEMATC
