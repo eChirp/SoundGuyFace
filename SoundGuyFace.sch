@@ -32,6 +32,9 @@ F 0 "U1" H 3383 6425 50  0000 C CNN
 F 1 "PCM2912A" H 3383 6334 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 3450 5250 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fpcm2912a" H 3450 5250 50  0001 C CNN
+F 4 "Texas Instruments" H 3100 6250 50  0001 C CNN "Manufacturer"
+F 5 "PCM2912APJTR" H 3100 6250 50  0001 C CNN "Manufacturer Part ID"
+F 6 "595-PCM2912APJTR" H 3100 6250 50  0001 C CNN "Mouser ID"
 	1    3100 6250
 	1    0    0    -1  
 $EndComp
@@ -504,6 +507,7 @@ F 6 "550-20384" H 11450 1100 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Neutrik/NRJ6HF-1?qs=lytv%2F56AjyI%252Bc%252Bp%2FfWZpBw%3D%3D" H 11450 1000 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Neutrik" H 11450 900 50  0001 L CNN "Manufacturer_Name"
 F 9 "NRJ6HF-1" H 11450 800 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "550-20384" H 10600 1400 50  0001 C CNN "Mouser ID"
 	1    10600 1400
 	-1   0    0    -1  
 $EndComp
@@ -1435,6 +1439,7 @@ F 6 "490-UJ2-MIBH-4-MSMT" H 2550 6100 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ2-MIBH-4-MSMT-TR?qs=5mqXD9RfOg32NvuLASc7Xg%3D%3D" H 2550 6000 50  0001 L CNN "Mouser Price/Stock"
 F 8 "CUI Devices" H 2550 5900 50  0001 L CNN "Manufacturer_Name"
 F 9 "UJ2-MIBH-4-MSMT-TR" H 2550 5800 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "490-UJ2-MIBH-4-MSMT" H 1700 6400 50  0001 C CNN "Mouser ID"
 	1    1700 6400
 	-1   0    0    -1  
 $EndComp
@@ -1568,6 +1573,7 @@ F 6 "81-CSTNR6M00GH5L000R" H 5350 6450 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-CSTNR6M00GH5L000R" H 5350 6350 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Murata Electronics" H 5350 6250 50  0001 L CNN "Manufacturer_Name"
 F 9 "CSTNR6M00GH5L000R0" H 5350 6150 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "81-CSTNR6M00GH5L000R" H 4500 6750 50  0001 C CNN "Mouser ID"
 	1    4500 6750
 	1    0    0    -1  
 $EndComp
