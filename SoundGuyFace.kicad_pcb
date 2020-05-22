@@ -16,14 +16,14 @@
   )
 
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -32,8 +32,8 @@
     (43 Eco2.User user hide)
     (44 Edge.Cuts user)
     (45 Margin user hide)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
+    (46 B.CrtYd user hide)
+    (47 F.CrtYd user hide)
     (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
@@ -224,7 +224,7 @@
     (add_net VBUS)
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5EB73CF2)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5EBE7195)
     (at 145.415 82.042 270)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
@@ -264,7 +264,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5EB73CDC)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5EBE7156)
     (at 152.146 82.042 270)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
@@ -304,7 +304,7 @@
     )
   )
 
-  (module SamacSys_Parts:CSTNR6M00GH5L000R0 (layer F.Cu) (tedit 0) (tstamp 5EB8B2A1)
+  (module SamacSys_Parts:CSTNR6M00GH5L000R0 (layer F.Cu) (tedit 0) (tstamp 5EBE724A)
     (at 150.876 71.247 90)
     (descr CSTNR6M00GH5L000R0-1)
     (tags "Crystal or Oscillator")
@@ -540,7 +540,7 @@
     )
   )
 
-  (module Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal (layer F.Cu) (tedit 5A3D4993) (tstamp 5EB73CC6)
+  (module Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal (layer F.Cu) (tedit 5A3D4993) (tstamp 5EBE71E5)
     (at 180.594 60.96)
     (descr "Potentiometer, horizontal, Alps RK097 Dual, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK097/RK097_list.html")
     (tags "Potentiometer horizontal Alps RK097 Dual")
@@ -842,7 +842,7 @@
     (tags resistor)
     (path /5EB6E138)
     (attr smd)
-    (fp_text reference R21 (at -24.765 0) (layer F.SilkS) hide
+    (fp_text reference R21 (at -24.765 0) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value "0 DNP" (at 0 1.05) (layer F.Fab)
@@ -878,7 +878,7 @@
     (tags resistor)
     (path /5EB6D734)
     (attr smd)
-    (fp_text reference R20 (at -24.765 -0.762) (layer F.SilkS) hide
+    (fp_text reference R20 (at -24.765 -0.762) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value "0 DNP" (at 0 1.05) (layer F.Fab)
@@ -914,7 +914,7 @@
     (tags resistor)
     (path /5EB6E9D1)
     (attr smd)
-    (fp_text reference R19 (at -25.461 0) (layer F.SilkS) hide
+    (fp_text reference R19 (at -25.461 0) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value "0 DNP" (at 0 1.05) (layer F.Fab)
@@ -950,7 +950,7 @@
     (tags resistor)
     (path /5EB6C0EB)
     (attr smd)
-    (fp_text reference R18 (at -25.461 -0.762) (layer F.SilkS) hide
+    (fp_text reference R18 (at -25.461 -0.762) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value "0 DNP" (at 0 1.05) (layer F.Fab)
@@ -1594,7 +1594,7 @@
     )
   )
 
-  (module SamacSys_Parts:INDPM6060X450N (layer F.Cu) (tedit 0) (tstamp 5EB7E042)
+  (module SamacSys_Parts:INDPM6060X450N (layer F.Cu) (tedit 0) (tstamp 5EBE7415)
     (at 152.273 88.078 180)
     (descr "WE-LQS SMD Power Inductor")
     (tags Inductor)
@@ -1630,7 +1630,7 @@
     )
   )
 
-  (module SamacSys_Parts:UJ2MIBH4MSMTTR (layer F.Cu) (tedit 0) (tstamp 5EB73AD1)
+  (module SamacSys_Parts:UJ2MIBH4MSMTTR (layer F.Cu) (tedit 0) (tstamp 5EBE745E)
     (at 140.208 74.93)
     (descr UJ2-MIBH-4-MSMT-TR-1)
     (tags Connector)
@@ -1638,7 +1638,7 @@
     (fp_text reference J3 (at -1.675 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
-    (fp_text value UJ2-MIBH-4-MSMT-TR (at -1.675 0) (layer F.SilkS) hide
+    (fp_text value UJ2-MIBH-4-MSMT-TR (at -8.748 0.41 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_arc (start 3.075 1) (end 3.025 1) (angle -180) (layer F.SilkS) (width 0.2))
@@ -1694,7 +1694,7 @@
       (net 8 VBUS))
   )
 
-  (module SamacSys_Parts:NCJ6FAH0 (layer F.Cu) (tedit 0) (tstamp 5EB7AA5A)
+  (module SamacSys_Parts:NCJ6FAH0 (layer F.Cu) (tedit 0) (tstamp 5EBE73A3)
     (at 164.846 73.406 270)
     (descr NCJ6FA-H-0-1)
     (tags Connector)
@@ -1771,7 +1771,7 @@
     )
   )
 
-  (module SamacSys_Parts:NRJ6HF1 (layer F.Cu) (tedit 0) (tstamp 5EB7BC95)
+  (module SamacSys_Parts:NRJ6HF1 (layer F.Cu) (tedit 0) (tstamp 5EBE74D7)
     (at 137.922 65.024 180)
     (descr NRJ6HF-1-1)
     (tags Connector)
@@ -1835,7 +1835,7 @@
     )
   )
 
-  (module Diode_SMD:D_1210_3225Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EB73A4D)
+  (module Diode_SMD:D_1210_3225Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EBE734E)
     (at 151.511 75.565)
     (descr "Diode SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
@@ -1873,7 +1873,7 @@
     )
   )
 
-  (module Diode_SMD:D_1210_3225Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EB7E9EF)
+  (module Diode_SMD:D_1210_3225Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EBE7318)
     (at 151.514 79.121)
     (descr "Diode SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
@@ -1911,7 +1911,7 @@
     )
   )
 
-  (module Diode_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5EB73A27)
+  (module Diode_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5EBE72D8)
     (at 141.732 88.646)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
@@ -1954,7 +1954,7 @@
     )
   )
 
-  (module Diode_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5EB73A0F)
+  (module Diode_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5EBE7293)
     (at 141.732 85.09 180)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
@@ -1997,7 +1997,7 @@
     )
   )
 
-  (module Diode_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5EB739F7)
+  (module Diode_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5EBE753C)
     (at 141.732 92.202)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
@@ -2554,7 +2554,7 @@
     )
   )
 
-  (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EB738FA)
+  (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EBE7C82)
     (at 166.878 59.436)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
@@ -2703,7 +2703,7 @@
     )
   )
 
-  (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EB7AE4F)
+  (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EBE7ADA)
     (at 162.814 62.484 180)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
@@ -2869,7 +2869,7 @@
     )
   )
 
-  (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EB737E3)
+  (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EBE7943)
     (at 168.91 65.024 180)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
@@ -3086,7 +3086,7 @@
     )
   )
 
-  (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EB73742)
+  (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EBE77BD)
     (at 166.878 53.848)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
@@ -3473,7 +3473,7 @@
     )
   )
 
-  (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EB7AC96)
+  (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5EBE7615)
     (at 162.814 54.61 180)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
@@ -3639,11 +3639,11 @@
     )
   )
 
-  (gr_line (start 133.35 71.09) (end 133.35 49.5) (layer Edge.Cuts) (width 0.05) (tstamp 5EBDB9EC))
-  (gr_line (start 139.39 71.09) (end 133.35 71.09) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 139.4 78.59) (end 139.39 71.09) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 133.34 78.59) (end 139.4 78.59) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 133.35 96) (end 133.34 78.59) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 133.35 71.09) (end 133.35 49.5) (layer Edge.Cuts) (width 0.05) (tstamp 5EBE756B))
+  (gr_line (start 139.39 71.09) (end 133.35 71.09) (layer Edge.Cuts) (width 0.05) (tstamp 5EBE757D))
+  (gr_line (start 139.4 78.59) (end 139.39 71.09) (layer Edge.Cuts) (width 0.05) (tstamp 5EBE7577))
+  (gr_line (start 133.34 78.59) (end 139.4 78.59) (layer Edge.Cuts) (width 0.05) (tstamp 5EBE7574))
+  (gr_line (start 133.35 96) (end 133.34 78.59) (layer Edge.Cuts) (width 0.05) (tstamp 5EBE7571))
   (gr_text F (at 178.689 89.662) (layer B.SilkS) (tstamp 5EB8E78B)
     (effects (font (size 4 4) (thickness 1)) (justify mirror))
   )
@@ -3683,9 +3683,9 @@
     (arrow2a (pts (xy 133.35 98.298) (xy 134.476504 98.884421)))
     (arrow2b (pts (xy 133.35 98.298) (xy 134.476504 97.711579)))
   )
-  (gr_line (start 188.468 96) (end 133.35 96) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 188.468 49.5) (end 188.468 96) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 133.35 49.5) (end 188.468 49.5) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 188.468 96) (end 133.35 96) (layer Edge.Cuts) (width 0.05) (tstamp 5EBE756E))
+  (gr_line (start 188.468 49.5) (end 188.468 96) (layer Edge.Cuts) (width 0.05) (tstamp 5EBE757A))
+  (gr_line (start 133.35 49.5) (end 188.468 49.5) (layer Edge.Cuts) (width 0.05) (tstamp 5EBE7580))
 
   (segment (start 150.622 63.43301) (end 150.622 53.594) (width 0.5) (layer B.Cu) (net 1))
   (segment (start 150.622 65.024) (end 150.622 63.43301) (width 0.5) (layer B.Cu) (net 1))
